@@ -1,0 +1,18 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: manifest-test
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: manifest-test
+  template:
+    metadata:
+      labels:
+        app: manifest-test
+    spec:
+      containers:
+      - name: manifest-test
+        image: cr.yandex/crpe7gmtkh8el8rkf2ub/sample_service:latest
