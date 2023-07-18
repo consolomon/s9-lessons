@@ -7,7 +7,7 @@ pg_settings = {
     'port': 6432,  # порт_вашего_postgresql
     'dbname': 'sprint9dwh',  # название_бд
     'username': 'consolomon',  # имя_пользователя_для_подключения
-    'password': 'OnlyJustice3'  # пароль_для_подключения
+    'password': '***'  # пароль_для_подключения
 }
 
 # укажите полный путь до папки с sprint-9-sample-service
