@@ -16,21 +16,21 @@ containerPort: 5000
 config:
   KAFKA_HOST: "rc1a-ekrpfbac7upma8e7.mdb.yandexcloud.net"
   KAFKA_PORT: "9091"
-  KAFKA_CONSUMER_USERNAME: "producer_consumer"
-  KAFKA_CONSUMER_PASSWORD: "OnlyJustice3"
+  KAFKA_CONSUMER_USERNAME: "***"
+  KAFKA_CONSUMER_PASSWORD: "***"
   KAFKA_CONSUMER_GROUP: "main-consumer-group"
   KAFKA_SOURCE_TOPIC: "order-service_orders"
   KAFKA_STG_SERVICE_ORDERS_TOPIC: "stg-service-orders"
 
   PG_WAREHOUSE_HOST: "rc1a-3ocskmeeutxi1eb8.mdb.yandexcloud.net"
   PG_WAREHOUSE_PORT: "6432"
-  PG_WAREHOUSE_DBNAME: "sprint9dwh"
-  PG_WAREHOUSE_USER: "consolomon"
-  PG_WAREHOUSE_PASSWORD: "OnlyJustice3"
+  PG_WAREHOUSE_DBNAME: "***"
+  PG_WAREHOUSE_USER: "***"
+  PG_WAREHOUSE_PASSWORD: "***"
 
   REDIS_HOST: "rc1b-4pz8jnegzdlns73v.mdb.yandexcloud.net"
   REDIS_PORT: "6380"
-  REDIS_PASSWORD: "OnlyJustice3"
+  REDIS_PASSWORD: "***"
 
 imagePullSecrets: []
 nameOverride: ""
